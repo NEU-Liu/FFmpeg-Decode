@@ -1,0 +1,5 @@
+make
+./h264dec   in.h264   out.yuv
+ffplay  -s 352x288 -pix_fmt yuv420p   out.yuv 
+经测验可以使用！！
+https://github.com/shengbinmeng/ffmpeg-h264-dec
